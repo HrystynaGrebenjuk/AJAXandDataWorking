@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+
+
+    <form action="">
+        <fieldset>
+            <legend>Sorting and filters:</legend>
+          
+                 <select>
+                    <option value="Start_date">Start date</option>
+                    <option value="End_date">End date</option>
+                    <option value="Gameweeks">Gameweeks</option>
+                    <option value="Buy_in">Buy in</option>
+                    <option value="Budget">Budget</option>
+                    <option value="Prize">Prize</option>
+                    <option value="Team_members">Team members</option>
+                </select>
+            
+<!--
+            <br>
+            <br>
+-->
+            <input type="checkbox" name="Status" value="waiting" id="waiting"> <label for="waiting">Waiting</label>
+<!--
+            <br>
+            <br>
+-->
+            <input type="checkbox" name="Status" value="in_progress" id="in_progress"> <label for="in_progress">In process</label>
+<!--
+            <br>
+            <br>
+-->
+            <input type="checkbox" name="Status" value="cancelled" id="cancelled"> <label for="cancelled">Cancelled</label>
+<!--
+            <br>
+            <br>
+-->
+            <input class="submit" type="button" value="Sort&Filter!">
+        </fieldset>
+    </form>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
